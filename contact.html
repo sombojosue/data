@@ -37,7 +37,9 @@
          <li><a href="about.html">About</a></li>
          <li><a href="contact.html" id="active">Contact</a></li>
          <li><a href="login.html">Login</a></li>
-          <li onclick="closeMenu()" style="color:#fff;cursor:pointer;">close&nbsp;<i class="fas fa-chevron-up" style="color:#fff;"></i></li>
+         <li>
+          <i class="fas fa-window-close" style="color:#fff;font-size:28px;cursor:pointer;" onclick="closeMenu()"></i>
+         </li>
        </ul>
      </div>
    </div>
@@ -54,18 +56,24 @@
        <span class="size">
        <i class="fas fa-envelope"></i>
        </span>
-       <span>mounatadmajumder@gmail.com</span>
+       <span><a href="mailto:mounatadmajumder@gmail.com" id="linkup">mounatadmajumder@gmail.com</a></span>
      </div>
      <!-- Social network contact -->
      <div class="socialnetwork">
        <span class="size">
-         <i class="fab fa-facebook-square" style="color:#fff;"></i>
+         <a href="https://www.facebook.com/">
+         <i class="fab fa-facebook-square"></i>
+         </a>
        </span>
        <span class="size">
-         <i class="fab fa-linkedin" style="color:#fff;"></i>
+         <a href="https://www.linkedin.com/login?trk=guest_homepage-basic_nav-header-signin">
+         <i class="fab fa-linkedin"></i>
+         </a>
          </span>
        <span class="size">
-         <i class="fab fa-instagram" style="color:#fff;"></i>
+         <a href="https://www.instagram.com/accounts/login/two_factor?next=%2F">
+         <i class="fab fa-instagram"></i>
+         </a>
        </span>
      </div>
    </section>
@@ -925,7 +933,6 @@
   <div class="form_contact_space">
    <h2 id="contact">Contact Us</h2>
    <p>Get in touch with us</p>
-   <br>
    <form class="" action="" method="post">
      <input type="text" name="name" value="" placeholder="Name">
      <input type="email" name="email" value="" placeholder="Email">
@@ -934,18 +941,8 @@
    </form>
    </div>
   </div>
-  <div class="form_contact" id="map">
-    <script>
-       var map;
-       function initMap() {
-         map = new google.maps.Map(document.getElementById('map'), {
-           center: {lat: 12.703, lng: 77.348},
-           zoom: 8
-         });
-       }
-     </script>
-     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYQT8zvRbBOKoWEaPaA6DQSTaYCpN1M7M&callback=initMap"
-     async defer></script>
+  <div class="form_contact">
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1678065.4773773907!2d76.84527975908212!3d12.343185719601827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C+Karnataka!5e0!3m2!1sen!2sin!4v1563085011126!5m2!1sen!2sin" width="540" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
   </div>
   </div>
  </main>
@@ -962,16 +959,24 @@
     </form>
     <img src="images/logo.png" alt="" id="logo"><br>
     <span class="size">
+      <a href="https://www.facebook.com/">
       <i class="fab fa-facebook-square"></i>
+      </a>
     </span>
     <span class="size">
+      <a href="https://www.linkedin.com/login?trk=guest_homepage-basic_nav-header-signin">
       <i class="fab fa-linkedin"></i>
+      </a>
       </span>
     <span class="size">
+      <a href="https://www.instagram.com/accounts/login/two_factor?next=%2F">
       <i class="fab fa-instagram"></i>
+      </a>
     </span>
     <span class="size">
+       <a href="https://mail.google.com/mail/u/0/#inbox">
        <i class="fab fa-google"></i>
+       </a>
     </span>
    </div>
    <span class="para_space">
@@ -992,8 +997,8 @@
    </div>
  </footer>
 
- <script type="text/javascript" src="js/all.js"></script>
- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+ <script type="text/javascript" src="js/all.js">
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
  </script>
   </body>
 </html>

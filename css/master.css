@@ -22,12 +22,11 @@ h4{
 }
 p{
   font-family: serif;
-  font-size: 18px;
 }
 /* Header section definition */
 .header{
   margin-top: 0px;
-  max-width: 100%;
+  width: 100%;
   height: 110px;
   background-color: #313131;
 }
@@ -36,6 +35,7 @@ p{
   height: 50px;
   background: #28323f;
   border-bottom:1px solid #fff;
+  margin-bottom: 0px;
   box-shadow: 0 4px 8px 0 rgba(40, 50, 63,0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .personalinfo{
@@ -55,6 +55,9 @@ p{
 .personalinfo .size{
   margin-top: 5px;
 }
+.size a{
+  color: #fff;
+}
 .personalinfo .size{
   font-size: 20px;
 }
@@ -65,7 +68,9 @@ p{
 .socialnetwork{
   width: 10%;
   float: left;
+  margin-left: 0%;
   padding-top: 12px;
+  color: #c61d00;
 }
 .clear{
   margin-right: 30px;
@@ -154,20 +159,19 @@ p{
   margin-right: 10%;
 }
 .service {
-  padding-top: 20px;
-  margin-left:15%;
-  margin-right: 10%;
-  box-sizing: border-box;
-  width: 75%;
-  height: 400px;
+  margin-top: 60px;
+  padding-left: 16%;
+  margin-right: 5%;
+  width: 100%;
+  height: 390px;
   border-bottom: 1px solid #d3d3d3;
 }
 .service_1{
-  width: 30%;
+  width: 25%;
   height: 350px;
   float: left;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-right:15px;
+  margin-right:20px;
   border: 1px solid #d3d3d3;
   background-color: #fff;
   border-radius: 5px;
@@ -195,11 +199,11 @@ p{
   padding:8px;
 }
 .image_padding span{
-  padding:6px 14px;
+  padding:8px 14px;
 }
 .text_service a{
   background:#28323f;
-  padding-top:7px;
+  padding-top:13px;
   padding-left: 18px;
   padding-right: 18px;
   padding-bottom: 13px;
@@ -215,7 +219,7 @@ p{
 .text_white a{
   color:#000;
   background:#fff;
-  padding-top:7px;
+  padding-top:12px;
   padding-left: 18px;
   padding-right: 18px;
   padding-bottom: 12px;
@@ -268,7 +272,7 @@ box-shadow: 0px 5px 5px  #d3d3d3;
   transform: translateX(100px);
 }
 .text .text_info{
-  width: 50%;
+  width: 40%;
   margin-top: 5px;
   border:1px solid lightgray;
   background: #000;
@@ -332,15 +336,6 @@ box-shadow: 0px 5px 5px  #d3d3d3;
   height: 175px;
   border: 1px solid #28323f;
   border-radius: 5px;
-}
-.image_course img{
-  width: 100%;
-  height: 175px;
-  box-sizing: border-box;
-}
-.text_course h3{
-  margin-top: 8px;
-  text-align: center;
 }
 .text_course p{
   color: #000;
@@ -429,7 +424,7 @@ font-style: italic;
 /* Footer configuration for the pages */
 .footer{
   width: 100%;
-  height: 550px;
+  height: 520px;
   background: #28323f;
   color:#fff;
   border-top: 1px solid #28323f;
@@ -446,7 +441,6 @@ font-style: italic;
 .news p{
   text-align: center;
   font-size: 21px;
-  margin-bottom: 12px;
 }
 .news input:focus{
   border:1px solid #f4f4f4;
@@ -487,20 +481,12 @@ font-style: italic;
   height: 100px;
   text-align: center;
 }
-.form_foot{
-  margin-top: 13px;
-}
-.menu_foot{
-  margin-top: 8px;
-}
 .menu_foot ul li{
   display: inline-block;
   margin-right: 30px;
 }
 .menu_foot ul li a{
   font-size: 19px;
-  text-decoration: none;
-  color: #fff;
 }
 #menu_space{
   margin-left: 50px;
@@ -574,7 +560,7 @@ font-style: italic;
 }
 .form_contact input[type=text],.form_contact input[type=email]{
   display: block;
-  width: 91%;
+  width: 92%;
   padding: 6px;
   font-size: 20px;
   margin-bottom: 8px;
@@ -584,15 +570,13 @@ font-style: italic;
   box-shadow: 0 4px 8px 0 rgba(10, 45, 62,0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .form_contact textarea{
-  width: 93%;
+  width: 92%;
   height: 150px;
   display:block;
-  font-size: 20px;
   border-radius: 5px;
   border:1px solid #f4f4f4;
   background-color: #fff;
   margin-bottom: 8px;
-  resize: none;
   box-shadow: 0 4px 8px 0 rgba(10, 45, 62,0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .form_contact input[type=submit]{
@@ -612,7 +596,7 @@ font-style: italic;
 /* About us Page */
 .body_about{
   width: 100%;
-  height: 1620px;
+  height: 1580px;
 }
 .slider_about{
   width: 100%;
@@ -632,17 +616,15 @@ font-style: italic;
 }
 .about_big_title{
   width: 100%;
-  height: 110px;
+  height: 100px;
+  line-height: 10px;
   background: #fff;
+  margin-top: -15px;
   text-align: center;
   border-bottom: 1px solid lightgray;
 }
 .about_big_title h2{
   padding-top: 25px;
-  font-size: 40px;
-}
-.about_big_title p{
-  font-size: 20px;
 }
 .message_about{
   width: 100%;
@@ -655,9 +637,6 @@ font-style: italic;
   height: 360px;
   float: left;
   margin-right: 5px;
-}
-.message_about_info p{
-  font-size: 18px;
 }
 .message_about_info img{
   border:1px solid lightgray;
@@ -680,17 +659,12 @@ font-style: italic;
 .team_about hr{
   margin-left: 20%;
   margin-right: 20%;
-  border:none;
-  padding-top: 10px;
-  border-bottom: 1px solid lightgray;
 }
 .team_header{
   text-align: center;
 }
 .team_about p{
-  padding-top: 8px;
   text-align: center;
-  font-size: 18px;
 }
 .team_about_person{
   width: 22%;
@@ -749,16 +723,19 @@ font-style: italic;
   width: 100%;
   height: 100px;
   text-align: center;
+  margin-bottom: -20px;
   background: #fff;
+  margin-top: -20px;
   border-bottom: 1px solid lightgray;
   line-height: 10px;
 }
 .blog_big_title h2{
   font-size: 40px;
-  padding-top: 18px;
-  margin-bottom: 25px;
+  padding-top: 20px;
 }
-
+.blog_big_title p{
+  padding-bottom: 10px;
+}
 .blog_video{
   width: 100%;
   height: 480px;
@@ -819,7 +796,7 @@ font-style: italic;
 }
 .blog_comment_user{
   width: 42%;
-  height: 530px;
+  height: 500px;
   float: left;
   margin-left: 20%;
   margin-top: 10px;
@@ -832,7 +809,6 @@ font-style: italic;
   border-radius: 50%;
   width: 50px;
   height: 50px;
-  float: left;
   border:1px solid lightgray;
   margin-top: 4px;
   margin-bottom: 5px;
@@ -842,9 +818,8 @@ font-style: italic;
   display: inline-block;
   font-size: 22px;
   color: #c61d00;
-  margin-top: 5px;
-  margin-left: 8px;
-  margin-bottom: 35px;
+  margin-left: 5px;
+  margin-top: -50px;
 }
 .blog_comment_user p{
   width: 98%;
@@ -854,10 +829,8 @@ font-style: italic;
   background-color: #fff;
   padding-left: 5px;
   margin-left: 5px;
-  margin-right: 5px;
-  box-sizing: border-box;
 }
-.blog_comment .form_blog{
+.blog_comment .form_contact{
 width: 35%;
 height: inherit;
 float: left;
@@ -866,60 +839,27 @@ padding-bottom: 12px;
 border-radius: 5px;
 margin-top: 11px;
 }
-.form_blog_space{
-  padding: 12px;
-  box-sizing: border-box;
-  background: #fff;
-  height: 360px;
-  border: 1px solid lightgray;
-  box-shadow: 0 4px 8px 0 rgba(10, 45, 62,0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.blog_comment .form_contact input[type=text]{
+  width: 79%;
 }
-.form_blog input[type=text]{
-  margin-top: 8px;
-  display: block;
-  width: 90%;
-  padding: 6px;
-  font-size: 20px;
-  margin-bottom: 8px;
-  border: 1px solid #f4f4f4;
-  background: #fff;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(10, 45, 62,0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.blog_comment .form_contact textarea{
+width: 79%;
+height: 150px;
 }
-.form_blog textarea{
-  width: 93%;
-  height: 150px;
-  display:block;
-  font-size: 20px;
-  border-radius: 5px;
-  border:1px solid #f4f4f4;
-  background-color: #fff;
-  margin-bottom: 8px;
-  resize: none;
-  box-shadow: 0 4px 8px 0 rgba(10, 45, 62,0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.form_blog input[type=submit]{
-  width: 20%;
-  padding: 9px;
-  text-align: center;
-  background: #c61d00;
-  color: #fff;
-  margin-top: 5px;
-  border: 1px solid #f4f4f4;
-  border-radius: 5px;
-}
+.blog_comment .form_contact input[type=submit]{
+  width: 30%;
+  }
 /* login page */
 .header_login{
   width: 100%;
-  height: 58px;
+  height: 50px;
 }
 .contact_login{
   width: 100%;
-  height: 58px;
+  height: 50px;
   background: #f4f4f4;
   border-bottom:1px solid #fff;
   margin-bottom: 0px;
-  box-sizing: border-box;
   box-shadow: 0 4px 8px 0 rgba(10, 45, 62,0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .personalinfo_login{
@@ -931,7 +871,6 @@ margin-top: 11px;
 .contact_login img{
   width: 150px;
   height: 50px;
-  padding-top: 8px;
 }
 .socialnetwork_login{
   width: 30%;
@@ -983,25 +922,20 @@ margin-top: 11px;
   float: left;
   margin-left: 30px;
 }
-.body_login_form input{
-  width: 95%;
+.body_login_form input, .body_login_form select{
+  width: 98%;
   display: block;
   margin-bottom: 15px;
-  height: 31px;
+  height: 37px;
   border-radius: 5px;
   border: 1px solid lightgray;
   font-size: 17px;
   background: #fff;
   padding: 5px;
 }
-.body_login_form a{
-  text-decoration: none;
-}
 .body_login_form input[type=submit]{
   width: 98%;
-  height: 34px;
   display: block;
-  font-weight: bold;
   margin-top: 10px;
   background-color: #28323f;
   color: #fff;
@@ -1010,7 +944,7 @@ margin-top: 11px;
 }
 .body_login_right_padding{
   border-right: 1px solid lightgray;
-  margin-right: 8px;
+  margin-right: 5px;
 }
 .login_or{
   margin-left: 95.5%;
@@ -1039,9 +973,6 @@ margin-top: 11px;
   float: left;
   text-align: center;
 }
-.body_login_sign_up p a{
-  text-decoration: none;
-}
 /* Sign up page */
 .body_login_box_write{
   width: 60%;
@@ -1053,32 +984,10 @@ margin-top: 11px;
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(10, 45, 62,0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.body_login_form select{
-  width: 98%;
-  display: block;
-  margin-bottom: 15px;
-  height: 35px;
-  border-radius: 5px;
-  border: 1px solid lightgray;
-  font-size: 17px;
-  background: #fff;
-  padding: 5px;
-}
-.body_signup_form input[type=submit]{
-  width: 98%;
-  height: 34px;
-  display: block;
-  margin-top: 10px;
-  background-color: #28323f;
-  color: #fff;
-  font-weight: bold;
-  border-radius: 5px;
-  border: 1px solid lightgray;
-}
 /* course page */
 .body_course{
   width: 100%;
-  height: 1600px;
+  height: 1500px;
 }
 .slider_course{
   width: 100%;
@@ -1104,8 +1013,10 @@ margin-top: 11px;
   width: inherit;
   height: 100px;
   text-align: center;
+  margin-top: -10px;
   margin-bottom: 45px;
   background: #fff;
+  line-height: 10px;
   border-bottom: 1px solid lightgray;
 }
 .course_title h2{
@@ -1141,9 +1052,6 @@ margin-top: 11px;
   opacity: 0.6;
   font-weight: bold;
 }
-.course_text_right h3{
-  padding-top: 15px;
-}
 .course_text_right p{
   margin-bottom: 40px;
   text-align: left;
@@ -1157,7 +1065,7 @@ margin-top: 11px;
   color:#fff;
   font-weight: bold;
   font-size: 20px;
-  margin-top: 6px;
+  margin-top: 10px;
 }
 .logo_hearder img{
   display: none;
@@ -1243,12 +1151,9 @@ margin-top: 11px;
   }
   .menu_mobile_responsible ul li{
     font-size: 20px;
-    display: block;
-    margin-bottom: 6px;
   }
   .menu_mobile_responsible ul li a{
       color: #fff;
-      text-decoration: none;
   }
   .menu_mobile_responsible ul li a:hover{
       color: #c61d00;
@@ -1627,7 +1532,6 @@ margin-top: 11px;
     width: 100%;
     height: 100px;
     text-align: center;
-    margin-top: -12px;
   }
   .menu_foot ul li{
     display: inline-block;
